@@ -8,7 +8,7 @@
     	<link rel="stylesheet" href="css/style.css">
   	</head>
   	<body>
- 		<div class="container">
+ 		<div class="container upper-labels">
   			<h3 class="text-center">
     		Welcome to the game
     			<span class="label label-default">Rock</span>
@@ -16,21 +16,21 @@
     			<span class="label label-danger">Scissors</span>
   			</h3>
 		</div>
-		<div id="js-whoWon" class="container">
+		<div id="js-whoWon" class="container winners">
 			<div class="row text-center">
     			<span  id="js-winner">
       			Who will be the Winner ?
     			</span>
     		</div>
 		</div>
-		<div id="js-newGameElement" class="container">
+		<div id="js-newGameElement" class="container gameStart">
   			<div class="row text-center">
-    			<button  id="js-newGameButton" class="btn btn-default">
+    			<button  id="js-newGameButton" class="btn btn-default btn-lg">
       			New game
     			</button>
   			</div>
 		</div>
-		<div id="js-playerPickElement" class="container">
+		<div id="js-playerPickElement" class="container picker">
  			<div class="row text-center">
     			<button id="js-playerPick_rock" class="btn">
       				<span class="badge">
@@ -52,51 +52,51 @@
    				 </button>
   			</div>
 		</div>
-		<div id="js-resultsTableElement" class="container">
-  <div class="row">
-    <div class="col-xs-5 text-center">
-      <span id="js-playerPoints" class="badge">
-      0
-      </span>
-      <span id="js-playerName">
-      Player Name
-      </span>
-    </div>
-    <div class="col-xs-2 text-center">
-      VS.
-    </div>
-    <div class="col-xs-5 text-center">
-      <span id="js-computerPoints" class="badge">
-      0
-      </span>
-      Computer
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-5 text-center">
-      <span id="js-playerPick">
-        Player selection
-      </span>
-    </div>
-    <div class="col-xs-2"></div>
-    <div class="col-xs-5 text-center">
-      <span id="js-computerPick">
-        Computer selection
-      </span>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-5 text-center">
-      <span id="js-playerResult">
-        Player Score
-      </span>
-    </div>
-    <div class="col-xs-2"></div>
-    <div class="col-xs-5 text-center">
-      <span id="js-computerResult">
-        Computer Score
-      </span>
-    </div>
+		<div id="js-resultsTableElement" class="container resultTable">
+      <div class="row">
+        <div class="col-xs-5 text-center">
+          <span id="js-playerPoints" class="badge">
+          0
+          </span>
+          <span id="js-playerName">
+          Player Name
+          </span>
+        </div>
+        <div class="col-xs-2 text-center">
+        VS.
+        </div>
+        <div class="col-xs-5 text-center">
+          <span id="js-computerPoints" class="badge">
+          0
+          </span>
+        Computer
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-5 text-center">
+          <span id="js-playerPick">
+          Player selection
+          </span>
+        </div>
+        <div class="col-xs-2"></div>
+        <div class="col-xs-5 text-center">
+          <span id="js-computerPick">
+          Computer selection
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-5 text-center">
+          <span id="js-playerResult">
+          Player Score
+          </span>
+        </div>
+        <div class="col-xs-2"></div>
+        <div class="col-xs-5 text-center">
+          <span id="js-computerResult">
+          Computer Score
+          </span>
+      </div>
   </div>
 </div>
 		<script type="text/javascript" src="js/scripts.js"></script>

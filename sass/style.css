@@ -1,5 +1,5 @@
 .upper-labels {
-  width: 90% auto;
+  width: 95% auto;
   height: 80px;
   background: gray; }
   .upper-labels h3 {
@@ -7,9 +7,9 @@
     font-weight: bold; }
 
 .winners {
-  width: 90% auto;
+  width: 95% auto;
   height: 40px;
-  background: #343333;
+  background: #343434;
   vertical-align: center; }
   .winners div {
     font-size: 20px;
@@ -17,7 +17,7 @@
     color: #ff9999; }
 
 .gameStart {
-  width: 90% auto;
+  width: 95% auto;
   height: 200px;
   background: white;
   margin-bottom: 30px;
@@ -26,14 +26,14 @@
   line-height: 200px; }
 
 .picker {
-  width: 90% auto;
+  width: 95% auto;
   padding-top: 40px;
   height: 80px;
   border-left: 3px black solid;
   border-right: 3px black solid; }
 
 .resultTable {
-  width: 90% auto;
+  width: 95% auto;
   padding-top: 40px;
   height: 160px;
   line-height: 24px;
