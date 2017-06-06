@@ -1,0 +1,46 @@
+.upper-labels {
+  width: 90% auto;
+  height: 80px;
+  background: gray; }
+  .upper-labels h3 {
+    color: red;
+    font-weight: bold; }
+
+.winners {
+  width: 90% auto;
+  height: 40px;
+  background: #343333;
+  vertical-align: center; }
+  .winners div {
+    font-size: 20px;
+    line-height: 40px;
+    color: #ff9999; }
+
+.gameStart {
+  width: 90% auto;
+  height: 200px;
+  background: white;
+  margin-bottom: 30px;
+  vertical-align: center;
+  border: solid black 3px;
+  line-height: 200px; }
+
+.picker {
+  width: 90% auto;
+  padding-top: 40px;
+  height: 80px;
+  border-left: 3px black solid;
+  border-right: 3px black solid; }
+
+.resultTable {
+  width: 90% auto;
+  padding-top: 40px;
+  height: 160px;
+  line-height: 24px;
+  font-size: 20px;
+  color: black;
+  border-left: 3px black solid;
+  border-right: 3px black solid;
+  border-bottom: 3px black solid; }
+
+/*# sourceMappingURL=style.css.map */
